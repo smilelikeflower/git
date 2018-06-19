@@ -1,0 +1,70 @@
+{
+    "name": "koa",
+    "bin": {
+        "hello": "hello"
+    },
+    "version": "1.0.0",
+    "description": "koa test",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
+        "bench": "make -C benchmarks",
+        "lint": "eslint benchmarks lib test",
+        "test": "jest",
+        "test-cov": "jest --coverage --runInBand --forceExit"
+    },
+    "keywords": [
+        "koa",
+        "async",
+        "web",
+        "app",
+        "http",
+        "application",
+        "framework",
+        "middleware",
+        "rack"
+    ],
+    "author": "dan",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michaelliao/learn-javascript.git"
+    },
+    "dependencies": {
+        "accepts": "^1.2.2",
+        "chmod": "^0.2.1",
+        "content-disposition": "~0.5.0",
+        "content-type": "^1.0.0",
+        "cookies": "~0.7.0",
+        "debug": "*",
+        "delegates": "^1.0.0",
+        "depd": "^1.1.0",
+        "destroy": "^1.0.3",
+        "error-inject": "~1.0.0",
+        "escape-html": "~1.0.1",
+        "fresh": "^0.5.2",
+        "http-assert": "^1.1.0",
+        "http-errors": "^1.2.8",
+        "is-generator-function": "^1.0.3",
+        "koa": "2.5.1",
+        "koa-compose": "^4.0.0",
+        "koa-convert": "^1.2.0",
+        "koa-is-json": "^1.0.0",
+        "mime-types": "^2.0.7",
+        "on-finished": "^2.1.0",
+        "only": "0.0.2",
+        "parseurl": "^1.3.0",
+        "statuses": "^1.2.0",
+        "type-is": "^1.5.5",
+        "vary": "^1.0.0"
+    },
+    "devDependencies": {
+        "fs.promised": "^3.0.0",
+        "koa-body": "^4.0.3",
+        "koa-bodyparser": "^4.2.1",
+        "koa-route": "^3.2.0",
+        "koa-router": "^7.4.0",
+        "koa-static": "^4.0.3"
+    }
+}
