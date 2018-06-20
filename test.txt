@@ -1,0 +1,8 @@
+git撤销操作：
+
+1.前一次没有完全提交完，重新提交。  git commit --amend
+git commit -m "initial commit"
+git add forgotten_file
+git commit --amend
+
+2.
