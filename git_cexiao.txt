@@ -1,0 +1,15 @@
+git撤销操作：
+
+1.git commit --amend 补充提交并可以修改提交描述
+git commit -m "initial commit"
+git add forgotten_file
+git commit --amend
+
+vim命令：Esc>:>wq (退出编辑，并保存修改)
+
+2.git reset HEAD <filename> 取消已经添加到缓存区的文件（git add * 添加修改过的所有文件到缓存区）。
+
+3.git checkout -- <filename> 检出上一次提交的内容，覆盖新的修改内容。
+
+
+git log 退出：英文状态下按Q
