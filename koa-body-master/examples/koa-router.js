@@ -92,6 +92,6 @@ log('Visit %s:%s/ in browser.', host, port);
 log();
 log('Test with executing this commands:');
 log('curl -i %s:%s/post/users -d "user=admin"', host, port);
-log('curl -i %s:%s/post/upload -F "source=@%s/avatar.png"', host, port, __dirname);
+log('curl -i %s:%s/post/upload -F "source=@%s/avatar.png"', host, port,   );
 log();
 log('Press CTRL+C to stop...');

@@ -32,8 +32,12 @@ router.get('/',(ctx)=>{
   `;
 });
 
-router.post('/post/upload',koaBody(),(ctx)=>{
-  
+router.post('/post/upload',
+koaBody({
+  multipart:true,
+}),
+(ctx)=>{
+  const 
 });
 
 
